@@ -328,4 +328,10 @@ public class Student {
             System.out.println("Incomplete information of Student Provided....");
         }
     } 
+    // overriding garbage collector to bahve as destructor   
+    @Override
+    protected void finalize(){
+        System.out.println("destructor called");
+    };
+    
 }

@@ -34,13 +34,13 @@ public class Test {
         HafizAslam.setDOB("November/27/1999");
         HafizAslam.setCNIC("3567912356781");
         HafizAslam.displayStudent();
-        }
+
         // catching any errors 
-        catch(Throwable t){
+        } catch (Throwable t) {
             throw t;
         }
         // calling destructor
-        finally{
+        finally {
             std.finalize();
             HafizAslam.finalize();
         }

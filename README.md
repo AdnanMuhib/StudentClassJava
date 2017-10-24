@@ -16,25 +16,25 @@ class must include the following three data members.
   * a constructor with **no parameter**
   * a constructor with **two parameters** (Name, Registration Number)
 All of these three constructors are meant to initialize their respective objects.
-2. Define getter setter for each data member
+2. Define getter setter for each data member.
 3. Apart from getter, setter and constructor, define the following function
  * i. **getAge()** – it should calculate age of student upto current date.
  * ii. **getStatus()** – function should tell the status of student in the following
-cases
-    * a. IF CGPA less than 2.0 - Status is Suspended
-    * b. IF CGPA between 2.0 and 2.5 - Status is Below Average
-    * c. IF CGPA between 2.5 and 3.3 - Status is Average
-    * d. IF CGPA between 3.3 and 3.5 - Status is Below Good
-    * e. IF CGPA greater than 3.5 – Status is Excellent
+cases.
+    * a. IF CGPA less than 2.0 - Status is Suspended.
+    * b. IF CGPA between 2.0 and 2.5 - Status is Below Average.
+    * c. IF CGPA between 2.5 and 3.3 - Status is Average.
+    * d. IF CGPA between 3.3 and 3.5 - Status is Below Good.
+    * e. IF CGPA greater than 3.5 – Status is Excellent.
 * iii. **numberOfWordsInName()** – it should return number of words in
 students name
 * iv. **getGender()** – if last digit of CNIC is odd then it should return MALE
-otherwise FEMALE
+otherwise FEMALE.
 4. Declare two objects (1 for each type of constructor) in **main**.
 5. Write a function in class **Student** to display the initialized data members for each
 object.
 6. Write **destructor** for the class **Student**. Display a message that says **“destructor
-called”** in the destructor body
+called”** in the destructor body.
 
 ## Output
 Your output should be like the following with same formatting <br />
